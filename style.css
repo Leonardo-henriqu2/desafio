@@ -1,0 +1,11 @@
+* {
+    /* Reset de CSS */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    /* Meus estilos */
+    background-color: rgb(141, 194, 236);
+
+    text-align: center;
+}

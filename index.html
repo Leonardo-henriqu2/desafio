@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert Degree</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Temperature converter</h1>
+    <br>
+    <section>
+        <p>Insira uma temperatura em Celsius, Fahrenheit ou Kelvin</p>
+    <br>
+
+        <input type="text" placeholder="Digite a temperatura:" id="temperatura">
+    <br>
+
+        <p>Ex. 21.2C ou 98.5f ou 141k</p>
+    <br>
+
+
+        <button id="btn-converter" onkeydown="transformDegree(event)">Converter</button>
+
+        <div>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
